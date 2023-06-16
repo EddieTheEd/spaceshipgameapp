@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/EddieTheEd/spaceshipgameapp#readme",
   "devDependencies": {
-    "electron": "^25.1.1"
+    "electron": "^25.1.1",
+    "electron-store": "^8.1.0"
   }
 }

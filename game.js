@@ -50,6 +50,25 @@
 -------------------------------------------------------------------------------------------
 */
 
+
+/* ipcRenderer.send('save-data', "helo", { name: "he", time: "2" });
+
+ipcRenderer.send('retrieve-data', "helo");
+
+ipcRenderer.on('data-retrieved', (event, value) => {
+    const name = value.name;
+    const time = value.time
+    console.log("saved successfully")
+    console.log(name);
+    console.log(time);
+    setTimeout(clearsuccess, 1000);
+});
+
+I have confirmed the above code saves to electron store.
+
+*/
+
+
 // Teams
 const RED = 'RED';
 const GREEN = 'GREEN';
