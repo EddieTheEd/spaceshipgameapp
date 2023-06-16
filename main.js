@@ -43,6 +43,9 @@ const createWindow = () => {
       preload: path.join(__dirname, 'preload.js')
     }
   })
+  win.hide()
+  win.maximize()
+  win.show()
   win.loadFile('main.html') // no clue why experimental.html does not work.
 }
 app.whenReady().then(() => {
