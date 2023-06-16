@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Spaceship Game (experiemntal)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game" class="main">
+        <div id="big">
+            <button onclick="load()"><h3>Initialise</h3></button>
+            <p>
+                W to accelerate <br>
+                S to decelerate <br>
+                A and D to rotate <br>
+                Q to switch aiming mode <br>
+                turrets follow mouse pointer <br>
+                Left click to shoot turrets <br>
+                E to shoot main cannon <br>
+                F to fire railgun <br>
+                hold down R to boost <br>
+                X to repair (regenerate hp) <br>
+                R to boost <br>
+                U to open/close upgrades menu (and pause) <br>
+                Save by clicking the save button in the upgrades menu <br>
+                Zoom out to see more of the map at once <br>
+            </p>
+        </div>
+    </div>
+    <div id="upgrades">
+        <div id="overlay">
+        </div>
+        <div id="buttonGrid">
+        </div>
+    </div>
+    <div id="controlPannel">
+        <button onclick="game();"><h3>Start Game</h3></button>
+    </div>
+    <div id="data">
+        <img id="Battleship" src="assets/Battleship.png">
+        <img id="BattleshipRed" src="assets/BattleshipRed.png">
+        <img id="Cruiser" src="assets/Cruiser.png">
+        <img id="CruiserRed" src="assets/CruiserRed.png">
+        <img id="Destroyer" src="assets/Destroyer.png">
+        <img id="DestroyerRed" src="assets/DestroyerRed.png">
+        <img id="Interceptor" src="assets/Interceptor.png">
+        <img id="InterceptorRed" src="assets/RedInterceptor.png">
+        <img id="MainCannonRed" src="assets/MainBattleshipTurretRed.png">
+        <img id="SmallCannonRed" src="assets/SmallBattleshipTurretRed.png">
+        <img id="TinyCannonRed" src="assets/TinyTurretRed.png">
+        <img id="BattleshipGreen" src="assets/BattleshipGreen.png">
+        <img id="CruiserGreen" src="assets/CruiserGreen.png">
+        <img id="DestroyerGreen" src="assets/DestroyerGreen.png">
+        <img id="InterceptorGreen" src="assets/GreenInterceptor.png">
+        <img id="MainCannonGreen" src="assets/MainBattleshipTurretGreen.png">
+        <img id="SmallCannonGreen" src="assets/SmallBattleshipTurretGreen.png">
+        <img id="TinyCannonGreen" src="assets/TinyTurretGreen.png">
+        <img id="PDCannon" src="assets/PDturret.png">
+        <img id="BulletRail" src="assets/RailgunRound.png">
+        <img id="BulletHuge" src="assets/Huge BulletV2.png">
+        <img id="BulletLarge" src="assets/Large Bullet.png">
+        <img id="BulletSmall" src="assets/Small Bullet.png">
+        <img id="BulletTiny" src="assets/Tiny Bullet.png">
+        <img id="BulletPD" src="assets/empty.png">
+        <img id="greyCircle" src="assets/greyCircle.png">
+        <img id="blueCircle" src="assets/blueCircle.png">
+        <img id="silverCircle" src="assets/silverCircle.png">
+        <img id="BattleshipPlume" src="assets/Engine Plume1-1.png">
+        <img id="BattleshipPlumeOverlay" src="assets/Engine Plume1-2.png">
+        <img id="CruiserPlume" src="Engine Plume2-1.png">
+        <img id="CruiserPlumeOverlay" src="assets/Engine Plume2-2.png">
+        <img id="DestroyerPlume" src="assets/Engine Plume3-1.png">
+        <img id="DestroyerPlumeOverlay" src="assets/empty.png">
+        <img id="InterceptorPlume" src="assets/empty.png">
+        <img id="InterceptorPlumeOverlay" src="assets/empty.png">
+        <img id="particle" src="assets/Particle.png">
+        <img id="s0" src="assets/s0.png">
+        <img id="s1" src="assets/s1.png">
+        <img id="s2" src="assets/s2.png">
+        <img id="s3" src="assets/s3.png">
+        <img id="s4" src="assets/s4.png">
+        <img id="s5" src="assets/s5.png">
+        <img id="None" src="assets/empty.png">
+        <img id="Metal" src="assets/Metal.png">
+        <img id="Circuits" src="assets/Circuit.png">
+        <img id="FuelCell" src="assets/FuelCell.png">
+    </div>
+</body>
+<script src="experimental.js"></script>
+
+

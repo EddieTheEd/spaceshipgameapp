@@ -1,0 +1,26 @@
+{
+  "name": "spaceshipgameapp",
+  "version": "1.0.0",
+  "description": "A spaceship game, but now in an app!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddieTheEd/spaceshipgameapp.git"
+  },
+  "keywords": [
+    "space",
+    "game"
+  ],
+  "author": "Tom Qiu, Edward Huynh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EddieTheEd/spaceshipgameapp/issues"
+  },
+  "homepage": "https://github.com/EddieTheEd/spaceshipgameapp#readme",
+  "devDependencies": {
+    "electron": "^25.1.1"
+  }
+}
